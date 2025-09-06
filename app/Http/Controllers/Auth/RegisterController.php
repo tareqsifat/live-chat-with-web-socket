@@ -30,7 +30,7 @@ class RegisterController extends Controller
         ]);
 
         Auth::login($user);
-
+        // dd($user);
         return redirect('/chat');
     }
 }
